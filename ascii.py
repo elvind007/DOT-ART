@@ -1,12 +1,3 @@
-"""
-File:   ascii.py
-Author: Marco Plaitano
-Date:   16 Feb 2022
-
-IMAGE TO ASCII CONVERTER
-Create a text document containing the ASCII representation of any given image.
-"""
-
 from sys import argv
 from PIL import Image, UnidentifiedImageError
 
