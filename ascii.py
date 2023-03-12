@@ -29,4 +29,4 @@ def image_to_ascii(image_path, output_path):
     with open(output_path, 'w') as f:
         f.write('\n'.join(lines))
 
-image_to_ascii('data/1.jpeg', 'data/output.txt')
+image_to_ascii('data/fish.jpeg', 'data/output.txt')
